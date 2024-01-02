@@ -87,7 +87,18 @@ var finances = [
   ['Feb-2017', 671099],
 ];
 
+
+
+console.log('Number of months: ' + finances.length)
+
 console.log(finances)
+var total=0
+for (let i = 0; i < finances.length; i++) {
+var currentMonth=finances[i]
+console.log(finances[i])
+var date= currentMonth[0]
+var amount=currentMonth[1]
+total = amount
+}
 
-
-console.log('total number of months' + finances.length)
+console.log(total+amount)

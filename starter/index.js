@@ -87,18 +87,54 @@ var finances = [
   ['Feb-2017', 671099],
 ];
 
+// title
+console.log('Financial Analysis')
 
-
+// number of months - correct 86
 console.log('Number of months: ' + finances.length)
 
-console.log(finances)
-var total=0
+// total amount - giving wrong amount should be 38382578 is showing 1342198.
+
+// console.log(finances)
+// var total=0
+// for (let i = 0; i < finances.length; i++) {
+// var currentMonth=finances[i]
+// console.log(finances[i])
+// var date= currentMonth[0]
+// var amount=currentMonth[1]
+// total = amount
+// }
+
+// console.log(total+amount)
+
+
+var total = finances.reduce(function (accumulator, entry) {
+  return accumulator + entry[1];
+}, 0);
+
+console.log('Total:', total);
+
+
+//average
+var average=0
 for (let i = 0; i < finances.length; i++) {
 var currentMonth=finances[i]
-console.log(finances[i])
+// console.log(finances[i])
 var date= currentMonth[0]
-var amount=currentMonth[1]
-total = amount
+var averagetotal=currentMonth[1]
+avtotal = (total/(finances.length - 1))
 }
 
-console.log(total+amount)
+console.log( "Average: " + avtotal)
+
+
+
+
+// Calculate the sum of the second elements
+// const sum = data.reduce((acc, entry) => acc + entry[1], 0);
+
+// Calculate the average
+// const average = sum / data.length;
+
+// console.log('Average:', average);
+

@@ -16,3 +16,7 @@ You will need to track what the total change in profits is from month to month a
 The greatest increase in profits (date and difference in the amounts) over the entire period.
 
 The greatest decrease in losses (date and difference in the amounts) over the entire period.
+
+links
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce

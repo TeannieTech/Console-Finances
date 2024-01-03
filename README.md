@@ -33,8 +33,6 @@ It allowed easy access to financial records just by accessing the console on the
 Open the Console to See the Magic, you will then see the javascript code at work.
 
 
-![alt text](assets/images/screenshot.png)
-
 ## Credits
 -https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
 -Chat GBP (with help to correct total amount - my calculation was giving wrong amount should be 38382578,was showing 134219 )

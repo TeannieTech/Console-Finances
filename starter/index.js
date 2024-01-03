@@ -107,8 +107,7 @@ console.log('Average:', average);
 
 
 // the greatest increase in Profit/Losses (date and difference in the amounts) over the entire period.
-
-
+// bigest ChannelMergerNode. is this change higher if not
 
 
 // The greatest decrease in Profit/Losses (date and difference in the amounts) over the entire period.
